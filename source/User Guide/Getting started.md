@@ -11,7 +11,7 @@ import gym
 import gym_fish
 # Our environment runs on GPU to accelerate simulations,ensure a cuda-supported GPU exists on your machine
 gpuId = 0
-env = gym.make('fish-v0',gpuId =gpuId)
+env = gym.make('fish-basic-v0',gpuId =gpuId)
 action = env.action_space.sample()
 obs,reward,done,info = env.step(action)
 ```
