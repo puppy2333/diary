@@ -15,9 +15,15 @@ Github repository: https://github.com/dongfangliu/gym-fish
 
 .. toctree::
    :maxdepth: 2
+   :caption: Installation:
+
+   Installation/Docker Install
+   Installation/Native Install
+
+.. toctree::
+   :maxdepth: 2
    :caption: User Guide:
 
-   User Guide/Installation
    User Guide/Getting started
    User Guide/Load and run a trained policy
    User Guide/Train your own policy
